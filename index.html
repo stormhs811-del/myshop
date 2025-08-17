@@ -1,0 +1,91 @@
+<!DOCTYPE html><html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мой каталог товаров</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card h3 {
+      margin: 15px;
+      font-size: 18px;
+    }
+    .card p {
+      margin: 0 15px 15px;
+      font-size: 14px;
+      color: #555;
+    }
+    .card a {
+      margin: 15px;
+      text-align: center;
+      background: #007bff;
+      color: #fff;
+      padding: 10px;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+    .card a:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Каталог товаров</h1>
+    <p>Переходите по товарам и заказывайте напрямую в магазине</p>
+  </header>  <div class="container">
+    <!-- Товар 1 -->
+    <div class="card">
+      <img src="https://via.placeholder.com/400x200" alt="Товар 1">
+      <h3>Наушники XYZ</h3>
+      <p>Отличные беспроводные наушники с шумоподавлением.</p>
+      <a href="https://example.com/affiliate-link1" target="_blank">Купить</a>
+    </div><!-- Товар 2 -->
+<div class="card">
+  <img src="https://via.placeholder.com/400x200" alt="Товар 2">
+  <h3>Смарт-часы ABC</h3>
+  <p>Умные часы с датчиком пульса и шагомером.</p>
+  <a href="https://example.com/affiliate-link2" target="_blank">Купить</a>
+</div>
+
+<!-- Товар 3 -->
+<div class="card">
+  <img src="https://via.placeholder.com/400x200" alt="Товар 3">
+  <h3>Игровая мышь Pro</h3>
+  <p>Высокоточная мышь для киберспорта.</p>
+  <a href="https://example.com/affiliate-link3" target="_blank">Купить</a>
+</div>
+
+  </div>
+</body>
+</html>
